@@ -112,7 +112,7 @@ def output_to_file_json_meta(scene_id, convoy_head_id, convoy_tail_id, independe
         json.dump(json_dict, output_file)
 
 
-arg_parser = argparse.ArgumentParser(description="Extracts two agent convoy scenarios from the High-D dataset")
+arg_parser = argparse.ArgumentParser(description="Extracts two agent convoy scenes from the High-D dataset")
 arg_parser.add_argument("input_directory_path")
 arg_parser.add_argument("output_directory_path")
 
